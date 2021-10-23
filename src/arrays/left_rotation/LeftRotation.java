@@ -1,4 +1,4 @@
-package left_rotation;
+package arrays.left_rotation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

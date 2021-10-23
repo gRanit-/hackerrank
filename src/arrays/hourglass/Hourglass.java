@@ -1,4 +1,4 @@
-package hourglass;
+package arrays.hourglass;
 
 import java.util.ArrayList;
 import java.util.Arrays;
