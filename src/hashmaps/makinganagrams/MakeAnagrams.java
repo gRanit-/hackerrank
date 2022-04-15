@@ -56,7 +56,7 @@ class Result {
         loadMap(b, characterMapB);
         int deletes = 0;
         deletes += deleteDifferences(characterMapA, characterMapB);
-        deletes += deleteDifferences(characterMapB, characterMapA);
+        deletes += deleteDifferences(characterMapB, characterMapA); // this needs to be called second time due to uniqe characters per map
         return deletes;
     }
 }
