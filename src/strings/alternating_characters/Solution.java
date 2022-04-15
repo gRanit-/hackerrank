@@ -1,13 +1,10 @@
 package strings.alternating_characters;
 
 import java.io.*;
-import java.util.LinkedList;
-import java.util.stream.*;
 
-import static java.util.stream.Collectors.joining;
 
 class Result {
-
+//https://www.hackerrank.com/challenges/alternating-characters/problem?isFullScreen=true
     /*
      * Complete the 'alternatingCharacters' function below.
      *
@@ -50,10 +47,8 @@ public class Solution {
         String s5 = "BBA";
         assert Result.alternatingCharacters(s5) == 1;
 
-        String s6 ="ABABABABBABA";
+        String s6 = "ABABABABBABA";
         assert Result.alternatingCharacters(s6) == 1;
-
-
 
     }
 }
